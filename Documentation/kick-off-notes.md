@@ -33,12 +33,9 @@
 - Karte
 - Profil
 - Freunde
-- 
 
 # Technologien
 
 - React Native
 - Webapplikation
 - Xamarin / .NET MAUI
-- 
--
