@@ -1,3 +1,1 @@
-# Tool enscheidung
-
-## Codeverwaltungstool entscheidungsprozess
+# Codeverwaltungstool entscheidungsprozess
