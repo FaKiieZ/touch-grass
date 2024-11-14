@@ -30,6 +30,8 @@ jobs:
         run: echo MD Lint machina startet
 
       - run: mkdir output
+      
+      - run: touch output/md-lint-results.txt
 
       - name: Markdown Linting Action
         # You may pin to the exact commit or the version.
