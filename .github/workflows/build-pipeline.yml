@@ -29,6 +29,8 @@ jobs:
       - name: Start MD Lint
         run: echo MD Lint machina startet
 
+      - run: mkdir output
+
       - name: Markdown Linting Action
         # You may pin to the exact commit or the version.
         # uses: avto-dev/markdown-lint@04d43ee9191307b50935a753da3b775ab695eceb
