@@ -1,10 +1,10 @@
 # Touch Grass
 
-# Ideen
+## Ideen
 
 - Karte anzeigen
 - Karte entdecken / Bereiche freischalten
-    - Bereiche freischalten als Belohnung
+  - Bereiche freischalten als Belohnung
 - Wanderwege einbinden
 - Laufen / Biken unterstützen
 - Freunde hinzufügen
@@ -17,25 +17,27 @@
 - Schwert für Renisch
 - Weekly Challenges
 - Gruppen-Feature zusammen erkunden
-    - Mehr XP sammeln
-    - Extra Challenges in der Gruppe
+  - Mehr XP sammeln
+  - Extra Challenges in der Gruppe
 - SOS-Button
 
-# Wichtigste Features
+## Wichtigste Features
 
 - Karte
 - Profile
 - Freunde
 - XP-System
 
-# Ansichten
+## Ansichten
 
 - Karte
 - Profil
 - Freunde
 
-# Technologien
+## Technologien
 
 - React Native
 - Webapplikation
 - Xamarin / .NET MAUI
+- 
+-
