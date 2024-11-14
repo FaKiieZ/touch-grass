@@ -39,5 +39,3 @@
 - React Native
 - Webapplikation
 - Xamarin / .NET MAUI
-- 
--
