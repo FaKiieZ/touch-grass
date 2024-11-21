@@ -32,6 +32,7 @@ jobs:
       - uses: DavidAnson/markdownlint-cli2-action@v17
         with:
           globs: '**/*.md'
+          config: .config/markdownlint.json
 
       # Runs a set of commands using the runners shell
       - name: End MD Lint
