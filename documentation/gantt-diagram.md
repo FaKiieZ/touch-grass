@@ -1,4 +1,5 @@
 # mermaid
+
 gantt
     title Touch Grass Timetable
     dateFormat  YYYY-MM-DD
