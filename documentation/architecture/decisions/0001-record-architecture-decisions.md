@@ -1,19 +1,19 @@
-# 1. Record architecture decisions
+# 1. Architecture decision records
 
-Date: 2024-11-21
+Datum: 14.11.2024
 
 ## Status
 
-Accepted
+Genehmigt
 
-## Context
+## Kontext
 
-We need to record the architectural decisions made on this project.
+Wir wollen unsere Architektur-Entscheide festhalten und protokollieren.
 
-## Decision
+## Entscheidung
 
-We will use Architecture Decision Records, as [described by Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions).
+Unsere Entscheidung ist auf das ADR-Tool von Nat Pryce gefallen, da es auf dem Github-Marketplace die besten Bewertungen hatte. Ausserdem funktionierte die Installation, wie auch das Erstellen von neuen Protokollen einwandfrei.
 
-## Consequences
+## Konsequenzen
 
-See Michael Nygard's article, linked above. For a lightweight ADR toolset, see Nat Pryce's [adr-tools](https://github.com/npryce/adr-tools).
+Alle unsere Entscheide müssen klar und verständlich protokolliert werden. Zum Erstellen von neuen Protokollen verwenden wir folgendes Tool von Nat Pryce: [adr-tools](https://github.com/npryce/adr-tools).
