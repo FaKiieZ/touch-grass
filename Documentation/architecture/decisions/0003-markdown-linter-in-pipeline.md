@@ -1,19 +1,19 @@
 # 3. Markdown Linter in Pipeline
 
-Date: 2024-11-14
+Datum: 14.11.2024
 
 ## Status
 
 Accepted
 
-## Context
+## Kontext
 
 The issue motivating this decision, and any context that influences or constrains the decision.
 
-## Decision
+## Entscheidung
 
 The change that we're proposing or have agreed to implement.
 
-## Consequences
+## Konsequenzen
 
 What becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.
