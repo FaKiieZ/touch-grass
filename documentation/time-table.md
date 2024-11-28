@@ -1,6 +1,5 @@
 # Zeitplan für das Projekt "Touch Grass"
 
-
 ## Phase 1: Projektplanung
 
 1. Kickoff-Meeting:\
