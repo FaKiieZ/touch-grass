@@ -1,8 +1,9 @@
 # Zeitplan für das Projekt "Touch Grass"
+
 Dauer: 17 Schultage
 
-
 ## Phase 1: Projektplanung (1 Schultage)
+
 1. Kickoff-Meeting:
     Besprechung der Ziele und Erwartungen.
     Aufgabenverteilung innerhalb der Gruppe.
@@ -13,6 +14,7 @@ Dauer: 17 Schultage
     Abstimmung über Architekturdiagramm (z.B. APIs, UI, DB).
 
 ## Phase 2: Design & Prototyping (2 Schultage)
+
 1. UI/UX-Design:
     Skizzieren des Interface-Designs für Karte, Profil, Freundesliste.
     Abstimmung auf Zielgruppe und Feedback-Schleife.
@@ -22,6 +24,7 @@ Dauer: 17 Schultage
     Freigabe des Designs durch die Gruppe.
 
 ## Phase 3: Entwicklung (10 Schultage)
+
 1. Setup der Umgebung (3 Schultage):
     Einrichtung der Entwicklungsumgebung (React Native/Xamarin).
     Einrichten von Git-Repositories und Workflows.
@@ -36,6 +39,7 @@ Dauer: 17 Schultage
     Durchführung von Funktionstests (Unit-, Integrations- und Usability-Tests).
 
 ## Phase 4: Feinschliff & Dokumentation (2 Schultage)
+
 1. Bugfixing und Optimierung:
     Behebung von Fehlern und Verbesserung der Performance.
 2. Finalisierung der Dokumentation:
@@ -45,6 +49,7 @@ Dauer: 17 Schultage
     Letzte Tests und Feedback-Runde innerhalb der Gruppe.
 
 ## Phase 5: Präsentation & Abgabe (1 Schultage)
+
 1. Erstellung der Präsentation:
     Darstellung der App-Funktionen, Architektur und Lessons Learned.
 2. Präsentation vor der Klasse:
