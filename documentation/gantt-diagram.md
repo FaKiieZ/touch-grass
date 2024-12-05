@@ -1,8 +1,6 @@
 # mermaid
 
 ```mermaid
- 
-
 gantt
     title Touch Grass Timetable
     dateFormat  YYYY-MM-DD
@@ -30,3 +28,4 @@ gantt
     Präsentation erstellen     :2024-12-23, 1d
     Präsentation               :2024-12-23, 1d
     Reflexion und Feedback     :2024-12-23, 1d
+```
