@@ -4,16 +4,22 @@ Datum: 14.11.2024
 
 ## Status
 
-Accepted
+Genehmigt
 
 ## Kontext
 
-The issue motivating this decision, and any context that influences or constrains the decision.
+In unserem Projekt verwenden wir Markdown-Dateien wie zum Beispiel README.md, um wichtige Informationen klar und verständlich darzustellen.
+Damit diese Dateien einheitlich formatiert und fehlerfrei sind, benötigen wir ein Tool, das Markdown-Dateien automatisch auf Syntaxfehler und Stilabweichungen überprüft.
 
 ## Entscheidung
 
-The change that we're proposing or have agreed to implement.
+Wir haben uns entschieden, die GitHub Action DavidAnson/markdownlint-cli2-action@v17 zu verwenden, um die Markdown-Validierung in unserem Workflow zu implementieren.
+Diese Entscheidung haben wir aus folgenden Gründen getroffen:
+
+- Sie hat auf dem Github-Marketplace mit die meisten und besten Bewertungen.
+- Eine benutzerdefinierte Konfigurationdatei (.markdownlint.json) kann erstellt und nach Wunsch konfiguriert werden.
+- Die Ausgaben sind gut und klar, es werden sowohl Fehler als auch Empfehlungen ausgegeben.
 
 ## Konsequenzen
 
-What becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.
+Durch die Integration von DavidAnson/markdownlint-cli2-action@v17 wird sichergestellt, dass alle Markdown-Dateien im Projekt automatisch auf Syntaxfehler und Stilabweichungen geprüft werden. Dies führt zu einer einheitlichen und konsistenten Dokumentation, was die Lesbarkeit und Wartbarkeit der Dateien verbessert. Teammitglieder müssen sich mit der Konfigurationsdatei .markdownlint.json und den Fehlermeldungen vertraut machen, um Probleme effizient zu beheben. Der Workflow wird regelmäßig ausgeführt.
