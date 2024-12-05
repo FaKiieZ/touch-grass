@@ -9,6 +9,7 @@ Genehmigt
 ## Kontext
 
 Wir wollen unsere Architektur-Entscheide festhalten und protokollieren.
+Das ADR-Tool hilft uns dabei alle Files einheitlich zu generieren und somit eine korrekte Struktur beizuhalten.
 
 ## Entscheidung
 
