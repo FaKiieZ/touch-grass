@@ -44,7 +44,7 @@ gauge.customScreenshotWriter = async function () {
 };
 
 step("Add task <item>", async (item) => {
-    await write(item, into(textBox("What needs to be hallo doer so?")));
+    await write(item, into(textBox("What needs to be done?")));
     await press('Enter');
 });
 
@@ -87,4 +87,27 @@ step("Must have <table>", async function (table) {
     for (var row of table.rows) {
         assert.ok(await text(row.cells[0]).exists());
     }
+});
+
+step("Upload picture", async () => {
+    await write("Upload picture", into(textBox("What needs to be done?")));
+    await press('Enter');
+});
+
+step("Check Progress percentage", async () => {
+    await write("Check Progress percentage", into(textBox("What needs to be done?")));
+    await press('Enter');
+});
+
+step("Open Achievements", async () => {
+    await write("Open Achievements", into(textBox("What needs to be done?")));
+    await press('Enter');
+});
+
+step("Open user profile", async function () {
+    await goto("todo.taiko.dev");
+});
+
+step("Click <type>", async function (link) {
+    await click(link(link));
 });
