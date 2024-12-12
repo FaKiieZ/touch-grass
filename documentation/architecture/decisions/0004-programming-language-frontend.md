@@ -4,15 +4,21 @@ Datum: 12.12.2024
 
 ## Status
 
-Accepted
+Genehmigt
 
 ## Kontext
 
-The issue motivating this decision, and any context that influences or constrains the decision.
+Gründe für die Wahl von JavaScript
+Breite Unterstützung durch Frameworks
+Cross-Plattform-Fähigkeit
+Etablierte Community und Ressourcen
+Einfache Integration
+Dynamische und interaktive Benutzeroberflächen
+Flexibilität: JavaScript ist sowohl für einfache Skripte als auch für komplexe Anwendungen geeignet und unterstützt eine Vielzahl von Anwendungsfällen.
 
 ## Entscheidung
 
-The change that we're proposing or have agreed to implement.
+
 
 ## Konsequenzen
 
