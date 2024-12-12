@@ -44,7 +44,7 @@ gauge.customScreenshotWriter = async function () {
 };
 
 step("Add task <item>", async (item) => {
-    await write(item, into(textBox("What needs to be done?")));
+    await write(item, into(textBox("What needs to be hallo doer so?")));
     await press('Enter');
 });
 
