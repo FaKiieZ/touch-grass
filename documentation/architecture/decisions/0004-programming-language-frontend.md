@@ -18,7 +18,7 @@ Flexibilität: JavaScript ist sowohl für einfache Skripte als auch für komplex
 
 ## Entscheidung
 
-
+Wir haben uns für JavaScript entschieden, weil es einfacher zu lernen ist.
 
 ## Konsequenzen
 
