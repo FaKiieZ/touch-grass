@@ -18,7 +18,7 @@ Flexibilität: JavaScript ist sowohl für einfache Skripte als auch für komplex
 
 ## Entscheidung
 
-Wir haben uns für JavaScript entschieden, weil es einfacher zu lernen ist.
+Wir haben uns für JavaScript entschieden, weil es einfacher zu lernen ist. Unsere Entscheidung basiert unter anderem auf den Erkenntnissen aus dem Blogartikel ‘Why is JavaScript so Important?’ von Snipcart, der die Vorteile und Bedeutung von JavaScript für die moderne Webentwicklung hervorhebt.
 
 ## Konsequenzen
 
