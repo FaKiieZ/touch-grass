@@ -1,12 +1,12 @@
 # User Profile 
 
 This is a context step that runs before every scenario
-* Open user profile
+* Open "profile" Endpoint
 
 ## Change profile picture
 * Click "Change profile picture"
 * Upload picture
 
 ## View Progress
-* Open Achievements
+* Click "Achievements"
 * Check Progress percentage
