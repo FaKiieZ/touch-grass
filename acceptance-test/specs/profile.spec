@@ -1,7 +1,7 @@
 # User Profile 
 
 This is a context step that runs before every scenario
-* Open user profile
+* Open "profile" Endpoint
 
 ## Create profile
 * Click "Edit profile"
@@ -20,5 +20,5 @@ This is a context step that runs before every scenario
 * Upload picture
 
 ## View Progress
-* Open Achievements
+* Click "Achievements"
 * Check Progress percentage
