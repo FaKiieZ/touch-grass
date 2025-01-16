@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  .quests {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .quest-section {
+    background: #f9f9ff;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .quest-section h2 {
+    margin-top: 0;
+    color: #555;
+  }
+  
+  .quest-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .quest-list li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .quest-list input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #007bff;
+  }
+  
+  .quest-list label {
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .quest-list input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
