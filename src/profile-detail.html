@@ -1,17 +1,19 @@
 <html>
-    <head></head>
-    <body>
-        <h1>Profil Detail</h1>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body class="profile-details">
+        <h1 class="header">Profil Details</h1>
 
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" /><br />
+        <form class="formular">
+            <label class="label" for="name">Name:</label>
+            <input type="text" class="profile-details-form" id="name" name="name" /><br />
 
-            <label for="age">Age:</label>
-            <input type="number" id="age" name="age" min="0" max="120"/><br />
+            <label class="label" for="age">Age:</label>
+            <input type="number" class="profile-details-form" id="age" name="age" min="0" max="120"/><br />
 
-            <label for="location">Location:</label>
-            <select id="location" name="location">
+            <label class="label" for="location">Location:</label>
+            <select  class="profile-details-form" id="location" name="location">
                 <option value="">-- Select a canton --</option>
                 <option value="AG">Aargau</option>
                 <option value="AI">Appenzell Innerrhoden</option>
@@ -42,10 +44,10 @@
             </select>
             <br>
 
-            <label for="occupation">Occupation:</label>
-            <input type="text" id="occupation" name="occupation" /><br />
+            <label class="label" for="occupation">Occupation:</label>
+            <input type="text" class="profile-details-form" id="occupation" name="occupation" /><br />
 
-            <button onclick="alert('Saved guet gmacht')">Save</button>
+            <button class="profile-details-form profile-details-button" onclick="alert('Saved guet gmacht')">Save</button>
         </form>
     </body>
 </html>
