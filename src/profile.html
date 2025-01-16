@@ -14,14 +14,25 @@
         <h1 class="header">Profil</h1>
 
         <div class="profil">
-            <img src="___.jpg" alt="Profil" />
+            <img id="profile-pic" src="assets/default.jpg" alt="Profil" />
+            
             <p class="profile-paragraph">
                 <strong>Name:</strong> John Doe<br />
                 <strong>Age:</strong> 25<br />
                 <strong>Location:</strong> Münsingen<br />
                 <strong>Occupation:</strong> Web Developer<br />
-            </p>  
-                <a class="profile-edit-button" href="profile-detail.html">Edit Profile</a>
+            </p>
+            <a class="profile-edit-button" href="profile-detail.html">Edit Profile</a>
+        </div>
+
+        <div>
+            <h2>Choose Profile Icon</h2>
+            <div class="icon-selection">
+                <img class="icon" src="profile-icons/unicorn.png" alt="unicorn" onclick="selectIcon('profile-icons/unicorn.png')" />
+                <img class="icon" src="profile-icons/dog.png" alt="Dog" onclick="selectIcon('profile-icons/dog.png')" />
+                <img class="icon" src="profile-icons/duck.png" alt="duck" onclick="selectIcon('profile-icons/duck.png')" />
+                <img class="icon" src="profile-icons/penguin.png" alt="penguin" onclick="selectIcon('profile-icons/penguin.png')" />
+            </div>
         </div>
 
         <div>
@@ -33,5 +44,11 @@
                 <li class="profile-li">Friend 3</li>
             </ul>
         </div>
+
+        <script>
+            function selectIcon(iconSrc) {
+                document.getElementById('profile-pic').src = iconSrc;
+            }
+        </script>
     </body>
 </html>
