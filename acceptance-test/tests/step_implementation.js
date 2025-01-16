@@ -17,7 +17,9 @@ const {
     text,
     into,
     textBox,
-    evaluate
+    evaluate,
+    scrollTo,
+    dropDown
 } = require('taiko');
 const assert = require("assert");
 const headless = process.env.headless_chrome.toLowerCase() === 'true';
@@ -53,16 +55,29 @@ step("Check Progress percentage", async () => {
 });
 
 step("Open <endpoint> Endpoint", async function (endpoint) {
-    await goto(`localhost/${url}`);
+    await goto(`localhost:8080/${endpoint}`);
 });
 
-step("Click <link>", async function (link) {
-    await click(link(link));
+step("Click <linkText>", async function (linkText) {
+    await click(linkText);
 });
 
-step("Find id <id>", async function (id) {
-    if (document.getElementById(id) == null)
-    {
-        throw 'Element not found';
-    }
+step("Find text <id>", async function (id) {
+    await scrollTo(id);
+});
+
+step("Add <textbox> <text>", async function (textbox, text) {
+    await write(text, into(textBox(textbox)))
+});
+
+step("Choose <element> <text>", async function (element, text) {
+    await dropDown(element).select(text);
+});
+
+step("<textbox> should be <text>", async function (textbox, text) {
+    await textBox(textbox).text() == text;
+});
+
+step("Selection <element> should be <text>", async function (element, text) {
+    await dropDown(element).value() == text;
 });
