@@ -13,6 +13,7 @@ Für unser Projekt benötigen wir eine Programmiersprache für das Frontend, die
 ## Entscheidung
 
 Aus folgenden Gründen haben wir uns für JavaScript entschieden:
+
 - Breite Unterstützung durch Frameworks
 - Cross-Plattform-Fähigkeit
 - Etablierte Community und Ressourcen
