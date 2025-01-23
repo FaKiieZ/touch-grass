@@ -28,7 +28,7 @@ var mask = L.rectangle(maskBounds, {
 }).addTo(map);
 
 if ("geolocation" in navigator) {
-    navigator.geolocation.getCurrentPosition(
+    navigator.geolocation.watchPosition(
         (position) => {
             var lat = position.coords.latitude;
             var lon = position.coords.longitude;
