@@ -1,53 +1,89 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quests Übersicht</title>
-  <link rel="stylesheet" href="quests-style.css">
-</head>
-<body>
-  <div class="container">
-    <h1>Quests Übersicht</h1>
-    <div class="quests">
-      <!-- Daily Quests Section -->
-      <div class="quest-section">
-        <h2>Daily Quests</h2>
-        <ul class="quest-list">
-          <li>
-            <input type="checkbox" id="daily-1">
-            <label for="daily-1">Sammle 100 XP</label>
-          </li>
-          <li>
-            <input type="checkbox" id="daily-2">
-            <label for="daily-2">Besiege 5 Gegner</label>
-          </li>
-          <li>
-            <input type="checkbox" id="daily-3">
-            <label for="daily-3">Schliesse 5 Wanderungen ab</label>
-          </li>
-        </ul>
-      </div>
+<html>
+    <head>
+        <title>Touch Grass - Quests</title>
 
-      <!-- Weekly Quests Section -->
-      <div class="quest-section">
-        <h2>Weekly Quests</h2>
-        <ul class="quest-list">
-          <li>
-            <input type="checkbox" id="weekly-1">
-            <label for="weekly-1">Verdiene 5000 Punkte</label>
-          </li>
-          <li>
-            <input type="checkbox" id="weekly-2">
-            <label for="weekly-2">Erreiche Level 10</label>
-          </li>
-          <li>
-            <input type="checkbox" id="weekly-3">
-            <label for="weekly-3">Erkunde 3 neue Gebiete</label>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</body>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="quests-style.css" />
+    </head>
+
+    <body>
+        <nav>
+            <ul id="nav-header">
+                <li class="nav-element">
+                    <a href="./index.html">Touch Grass</a>
+                </li>
+                <li class="nav-element"><a href="./profile.html">Profil</a></li>
+                <li class="nav-element">
+                    <a href="./achievements.html">Achievements</a>
+                </li>
+                <li class="nav-element" id="nav-active">
+                    <a href="./quests.html">Quests</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="container">
+                <h1>Quests Übersicht</h1>
+                <div class="quests">
+                    <!-- Daily Quests Section -->
+                    <div class="quest-section">
+                        <h2>Daily Quests</h2>
+                        <ul class="quest-list">
+                            <li>
+                                <input type="checkbox" id="daily-1" />
+                                <label for="daily-1">Sammle 100 XP</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="daily-2" />
+                                <label for="daily-2">Besiege 5 Gegner</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="daily-3" />
+                                <label for="daily-3"
+                                    >Schliesse 5 Wanderungen ab</label
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Weekly Quests Section -->
+                    <div class="quest-section">
+                        <h2>Weekly Quests</h2>
+                        <ul class="quest-list">
+                            <li>
+                                <input type="checkbox" id="weekly-1" />
+                                <label for="weekly-1"
+                                    >Verdiene 5000 Punkte</label
+                                >
+                            </li>
+                            <li>
+                                <input type="checkbox" id="weekly-2" />
+                                <label for="weekly-2">Erreiche Level 10</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="weekly-3" />
+                                <label for="weekly-3"
+                                    >Erkunde 3 neue Gebiete</label
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>
+                &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+                Touch Grass
+            </p>
+        </footer>
+    </body>
 </html>
