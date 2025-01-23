@@ -1,7 +1,15 @@
-var map = L.map("map", {
-    zoom: 13,
-    minZoom: 10, // Set the minimum zoom level
-});
+var map = L.map("map");
+
+// Disable zooming
+map.zoomControl.remove();
+map.touchZoom.disable();
+map.doubleClickZoom.disable();
+map.scrollWheelZoom.disable();
+map.boxZoom.disable();
+map.keyboard.disable();
+
+// Disable dragging
+map.dragging.disable();
 
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
