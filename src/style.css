@@ -40,8 +40,15 @@ body {
     margin: 0;
 }
 
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
 main {
-    margin: 2rem;
+    margin: 70px 20px;
 }
 
 .header {
@@ -161,4 +168,5 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    background-color: #f9f9f9;
 }
