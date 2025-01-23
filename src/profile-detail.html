@@ -29,20 +29,51 @@
         <main>
             <h1 class="header">Profil Details</h1>
 
-        <form class="formular">
-            <div class="align-center">
-                <img id="profile-pic" src="profile-icons/unicorn.png" alt="Profil" />
-                <label class="label" for="profile-picture">Choose Profile Icon:</label>
-            
-                <div class="icon-selection">
-                    <img class="icon" src="profile-icons/unicorn.png" alt="unicorn" onclick="selectIcon('profile-icons/unicorn.png')" />
-                    <img class="icon" src="profile-icons/dog.png" alt="Dog" onclick="selectIcon('profile-icons/dog.png')" />
-                    <img class="icon" src="profile-icons/duck.png" alt="duck" onclick="selectIcon('profile-icons/duck.png')" />
-                    <img class="icon" src="profile-icons/penguin.png" alt="penguin" onclick="selectIcon('profile-icons/penguin.png')" />
+            <form class="formular">
+                <div class="align-center">
+                    <img
+                        id="profile-pic"
+                        src="profile-icons/unicorn.png"
+                        alt="Profil"
+                    />
+                    <label class="label" for="profile-picture"
+                        >Choose Profile Icon:</label
+                    >
+
+                    <div class="icon-selection">
+                        <img
+                            class="icon"
+                            src="profile-icons/unicorn.png"
+                            alt="unicorn"
+                            onclick="selectIcon('profile-icons/unicorn.png')"
+                        />
+                        <img
+                            class="icon"
+                            src="profile-icons/dog.png"
+                            alt="Dog"
+                            onclick="selectIcon('profile-icons/dog.png')"
+                        />
+                        <img
+                            class="icon"
+                            src="profile-icons/duck.png"
+                            alt="duck"
+                            onclick="selectIcon('profile-icons/duck.png')"
+                        />
+                        <img
+                            class="icon"
+                            src="profile-icons/penguin.png"
+                            alt="penguin"
+                            onclick="selectIcon('profile-icons/penguin.png')"
+                        />
+                    </div>
                 </div>
-            </div>
-            <label class="label" for="name">Name:</label>
-            <input type="text" class="profile-details-form" id="name" name="name" /><br />
+                <label class="label" for="name">Name:</label>
+                <input
+                    type="text"
+                    class="profile-details-form"
+                    id="name"
+                    name="name"
+                /><br />
 
                 <label class="label" for="age">Age:</label>
                 <input
@@ -54,37 +85,45 @@
                     max="120"
                 /><br />
 
-            <label class="label" for="location">Location:</label>
-            <select  class="profile-details-form" id="location" name="location">
-                <option value="">-- Select a canton --</option>
-                <option value="Aargau">Aargau</option>
-                <option value="Appenzell Innerrhoden">Appenzell Innerrhoden</option>
-                <option value="Appenzell Ausserrhoden">Appenzell Ausserrhoden</option>
-                <option value="Bern">Bern</option>
-                <option value="Basel-Landschaft">Basel-Landschaft</option>
-                <option value="Basel-Stadt">Basel-Stadt</option>
-                <option value="Fribourg">Fribourg</option>
-                <option value="Geneva">Geneva</option>
-                <option value="Glarus">Glarus</option>
-                <option value="Graubünden">Graubünden</option>
-                <option value="Jura">Jura</option>
-                <option value="Lucerne">Lucerne</option>
-                <option value="Neuchâtel">Neuchâtel</option>
-                <option value="Nidwalden">Nidwalden</option>
-                <option value="Obwalden">Obwalden</option>
-                <option value="St. Gallen">St. Gallen</option>
-                <option value="Schaffhausen">Schaffhausen</option>
-                <option value="Solothurn">Solothurn</option>
-                <option value="Schwyz">Schwyz</option>
-                <option value="Thurgau">Thurgau</option>
-                <option value="Ticino">Ticino</option>
-                <option value="Uri">Uri</option>
-                <option value="Vaud">Vaud</option>
-                <option value="Valais">Valais</option>
-                <option value="Zug">Zug</option>
-                <option value="Zürich">Zürich</option>
-            </select>
-            <br />
+                <label class="label" for="location">Location:</label>
+                <select
+                    class="profile-details-form"
+                    id="location"
+                    name="location"
+                >
+                    <option value="">-- Select a canton --</option>
+                    <option value="Aargau">Aargau</option>
+                    <option value="Appenzell Innerrhoden">
+                        Appenzell Innerrhoden
+                    </option>
+                    <option value="Appenzell Ausserrhoden">
+                        Appenzell Ausserrhoden
+                    </option>
+                    <option value="Bern">Bern</option>
+                    <option value="Basel-Landschaft">Basel-Landschaft</option>
+                    <option value="Basel-Stadt">Basel-Stadt</option>
+                    <option value="Fribourg">Fribourg</option>
+                    <option value="Geneva">Geneva</option>
+                    <option value="Glarus">Glarus</option>
+                    <option value="Graubünden">Graubünden</option>
+                    <option value="Jura">Jura</option>
+                    <option value="Lucerne">Lucerne</option>
+                    <option value="Neuchâtel">Neuchâtel</option>
+                    <option value="Nidwalden">Nidwalden</option>
+                    <option value="Obwalden">Obwalden</option>
+                    <option value="St. Gallen">St. Gallen</option>
+                    <option value="Schaffhausen">Schaffhausen</option>
+                    <option value="Solothurn">Solothurn</option>
+                    <option value="Schwyz">Schwyz</option>
+                    <option value="Thurgau">Thurgau</option>
+                    <option value="Ticino">Ticino</option>
+                    <option value="Uri">Uri</option>
+                    <option value="Vaud">Vaud</option>
+                    <option value="Valais">Valais</option>
+                    <option value="Zug">Zug</option>
+                    <option value="Zürich">Zürich</option>
+                </select>
+                <br />
 
                 <label class="label" for="occupation">Occupation:</label>
                 <input
@@ -94,7 +133,24 @@
                     name="occupation"
                 /><br />
 
-            <button class="profile-details-form profile-details-button" type="button" onclick="saveProfile()">Save</button>
-        </form>
+                <button
+                    class="profile-details-form profile-details-button"
+                    type="button"
+                    onclick="saveProfile()"
+                >
+                    Save
+                </button>
+            </form>
+        </main>
+
+        <footer>
+            <p>
+                &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+                Touch Grass
+            </p>
+        </footer>
     </body>
 </html>

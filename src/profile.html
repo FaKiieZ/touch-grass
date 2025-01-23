@@ -9,32 +9,59 @@
         <script src="script-profile.js"></script>
     </head>
     <body class="body-styles">
-        <ul id="nav-header">
-            <li class="nav-element"><a href="./index.html">Touch Grass</a></li>
-            <li class="nav-element" id="nav-active"><a href="./profile.html">Profil</a></li>
-            <li class="nav-element"><a href="./achievements.html">Achievements</a></li>
-        </ul>
-        <h1 class="header">Profil</h1>
-
-        <div class="profil">
-            <img id="profile-pic" src="profile-icons/unicorn.png" alt="Profil" />
-            <p class="profile-paragraph">
-                <strong>Name:</strong> John Doe<br />
-                <strong>Age:</strong> 25<br />
-                <strong>Location:</strong> Münsingen<br />
-                <strong>Occupation:</strong> Web Developer<br />
-            </p>
-            <a class="profile-edit-button" href="profile-detail.html">Edit Profile</a>
-        </div>
-
-        <div>
-            <h2 class="header2">My friends</h2>
-
-            <ul class="profile-ul">
-                <li class="profile-li">Friend 1</li>
-                <li class="profile-li">Friend 2</li>
-                <li class="profile-li">Friend 3</li>
+        <nav>
+            <ul id="nav-header">
+                <li class="nav-element">
+                    <a href="./index.html">Touch Grass</a>
+                </li>
+                <li class="nav-element" id="nav-active">
+                    <a href="./profile.html">Profil</a>
+                </li>
+                <li class="nav-element">
+                    <a href="./achievements.html">Achievements</a>
+                </li>
             </ul>
-        </div>
+        </nav>
+
+        <main>
+            <h1 class="header">Profil</h1>
+
+            <div class="profil">
+                <img
+                    id="profile-pic"
+                    src="profile-icons/unicorn.png"
+                    alt="Profil"
+                />
+                <p class="profile-paragraph">
+                    <strong>Name:</strong> John Doe<br />
+                    <strong>Age:</strong> 25<br />
+                    <strong>Location:</strong> Münsingen<br />
+                    <strong>Occupation:</strong> Web Developer<br />
+                </p>
+                <a class="profile-edit-button" href="profile-detail.html"
+                    >Edit Profile</a
+                >
+            </div>
+
+            <div>
+                <h2 class="header2">My friends</h2>
+
+                <ul class="profile-ul">
+                    <li class="profile-li">Friend 1</li>
+                    <li class="profile-li">Friend 2</li>
+                    <li class="profile-li">Friend 3</li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <p>
+                &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+                Touch Grass
+            </p>
+        </footer>
     </body>
 </html>
