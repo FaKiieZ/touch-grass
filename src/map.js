@@ -1,11 +1,6 @@
 var map = L.map("map", {
-    center: [46.94, 7.44],
     zoom: 13,
     minZoom: 10, // Set the minimum zoom level
-    maxBounds: [
-        [46.84, 7.34], // Southwest coordinates
-        [47.04, 7.54], // Northeast coordinates
-    ],
 });
 
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
