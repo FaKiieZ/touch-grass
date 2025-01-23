@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>Touch Grass - Achievements</title>
+
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Achievements</title>
+
         <link rel="stylesheet" type="text/css" href="style.css" />
         <style>
             .reward {
@@ -14,16 +16,25 @@
             }
         </style>
     </head>
-    <body class="body-styles">
-        <ul id="nav-header">
-            <li class="nav-element"><a href="./index.html">Touch Grass</a></li>
-            <li class="nav-element"><a href="./profile.html">Profil</a></li>
-            <li class="nav-element" id="nav-active"><a href="./achievements.html">Achievements</a></li>
-        </ul>
-        <header>
-            <h1>Achievements</h1>
-        </header>
+    <body>
+        <nav>
+            <ul id="nav-header">
+                <li class="nav-element">
+                    <a href="./index.html">Touch Grass</a>
+                </li>
+                <li class="nav-element"><a href="./profile.html">Profil</a></li>
+                <li class="nav-element" id="nav-active">
+                    <a href="./achievements.html">Achievements</a>
+                </li>
+                <li class="nav-element">
+                    <a href="./quests.html">Quests</a>
+                </li>
+            </ul>
+        </nav>
+
         <main>
+            <h1 class="header">Achievements</h1>
+
             <section>
                 <h2>General Exploration Achievements</h2>
                 <ul>
@@ -85,8 +96,15 @@
                 </ul>
             </section>
         </main>
+
         <footer>
-            <p>&copy; 2023 Touch Grass</p>
+            <p>
+                &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+                Touch Grass
+            </p>
         </footer>
     </body>
 </html>

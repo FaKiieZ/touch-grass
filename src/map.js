@@ -28,7 +28,7 @@ var mask = L.rectangle(maskBounds, {
 }).addTo(map);
 
 if ("geolocation" in navigator) {
-    navigator.geolocation.getCurrentPosition(
+    navigator.geolocation.watchPosition(
         (position) => {
             var lat = position.coords.latitude;
             var lon = position.coords.longitude;
@@ -49,7 +49,20 @@ if ("geolocation" in navigator) {
             updateMask(visibleBounds);
         },
         (error) => {
-            alert(error.message);
+            switch (error.code) {
+                case 1:
+                    alert("Permission denied");
+                    break;
+                case 2:
+                    alert("Position unavailable");
+                    break;
+                case 3:
+                    alert("Request timeout");
+                    break;
+                default:
+                    alert("Unknown error");
+                    break;
+            }
         }
     );
 }

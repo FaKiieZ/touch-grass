@@ -1,15 +1,33 @@
 <html>
     <head>
+        <title>Touch Grass - Profil Detail</title>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         <link rel="stylesheet" type="text/css" href="style.css" />
         <script src="script-profile.js"></script>
     </head>
-    <body class="body-styles">
-        <ul id="nav-header">
-            <li class="nav-element"><a href="./index.html">Touch Grass</a></li>
-            <li class="nav-element" id="nav-active"><a href="./profile.html">Profil</a></li>
-            <li class="nav-element"><a href="./achievements.html">Achievements</a></li>
-        </ul>
-        <h1 class="header">Profil Details</h1>
+    <body>
+        <nav>
+            <ul id="nav-header">
+                <li class="nav-element">
+                    <a href="./index.html">Touch Grass</a>
+                </li>
+                <li class="nav-element" id="nav-active">
+                    <a href="./profile.html">Profil</a>
+                </li>
+                <li class="nav-element">
+                    <a href="./achievements.html">Achievements</a>
+                </li>
+                <li class="nav-element">
+                    <a href="./quests.html">Quests</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1 class="header">Profil Details</h1>
 
         <form class="formular">
             <div class="align-center">
@@ -26,8 +44,15 @@
             <label class="label" for="name">Name:</label>
             <input type="text" class="profile-details-form" id="name" name="name" /><br />
 
-            <label class="label" for="age">Age:</label>
-            <input type="number" class="profile-details-form" id="age" name="age" min="0" max="120"/><br />
+                <label class="label" for="age">Age:</label>
+                <input
+                    type="number"
+                    class="profile-details-form"
+                    id="age"
+                    name="age"
+                    min="0"
+                    max="120"
+                /><br />
 
             <label class="label" for="location">Location:</label>
             <select  class="profile-details-form" id="location" name="location">
@@ -61,8 +86,13 @@
             </select>
             <br />
 
-            <label class="label" for="occupation">Occupation:</label>
-            <input type="text" class="profile-details-form" id="occupation" name="occupation" /><br />
+                <label class="label" for="occupation">Occupation:</label>
+                <input
+                    type="text"
+                    class="profile-details-form"
+                    id="occupation"
+                    name="occupation"
+                /><br />
 
             <button class="profile-details-form profile-details-button" type="button" onclick="saveProfile()">Save</button>
         </form>

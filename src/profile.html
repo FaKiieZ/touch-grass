@@ -1,6 +1,10 @@
 <html>
     <head>
-        <title>My First Web Page</title>
+        <title>Touch Grass - Profil</title>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         <link rel="stylesheet" type="text/css" href="style.css" />
         <script src="script-profile.js"></script>
     </head>
@@ -32,13 +36,5 @@
                 <li class="profile-li">Friend 3</li>
             </ul>
         </div>
-        <script>
-            window.onload = function () {
-              const savedPic = localStorage.getItem('profilePicture');
-              if (savedPic) {
-                document.getElementById('profile-pic').src = savedPic; // Geladenes Bild anzeigen
-              }
-            };
-          </script>
     </body>
 </html>

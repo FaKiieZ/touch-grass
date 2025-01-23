@@ -1,6 +1,12 @@
 <html>
     <head>
+        <title>Touch Grass - Home</title>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         <link rel="stylesheet" type="text/css" href="style.css" />
+
         <!-- This ist just to show something. Decision to use leaflet is not final-->
         <link
             rel="stylesheet"
@@ -16,18 +22,36 @@
         ></script>
     </head>
 
-    <body class="body-styles">
-        <ul id="nav-header">
-            <li class="nav-element" id="nav-active">
-                <a href="./index.html">Touch Grass</a>
-            </li>
-            <li class="nav-element"><a href="./profile.html">Profil</a></li>
-            <li class="nav-element"><a href="./achievements.html">Achievements</a></li>
-        </ul>
+    <body>
+        <nav>
+            <ul id="nav-header">
+                <li class="nav-element" id="nav-active">
+                    <a href="./index.html">Touch Grass</a>
+                </li>
+                <li class="nav-element"><a href="./profile.html">Profil</a></li>
+                <li class="nav-element">
+                    <a href="./achievements.html">Achievements</a>
+                </li>
+                <li class="nav-element">
+                    <a href="./quests.html">Quests</a>
+                </li>
+            </ul>
+        </nav>
 
-        <br />
+        <main>
+            <div id="map"></div>
 
-        <div id="map"></div>
-        <script src="script.js"></script>
+            <script src="map.js"></script>
+        </main>
+
+        <footer>
+            <p>
+                &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+                Touch Grass
+            </p>
+        </footer>
     </body>
 </html>
