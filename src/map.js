@@ -102,9 +102,3 @@ function updateMask(bounds) {
         }).addTo(map);
     });
 }
-
-// Update the mask on zoom and move
-map.on("zoomend moveend", function () {
-    var bounds = visitedAreas.getBounds();
-    updateMask(bounds);
-});
