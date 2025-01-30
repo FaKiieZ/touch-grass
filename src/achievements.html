@@ -7,12 +7,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="achievements-style.css" />
         <style>
-            .reward {
-                display: none;
-            }
-            input[type="checkbox"]:checked + label .reward {
-                display: block;
+            .container {
+                max-width: 900px;
+                margin: 0 auto;
             }
         </style>
     </head>
@@ -33,68 +32,36 @@
         </nav>
 
         <main>
-            <h1 class="header">Achievements</h1>
+            <div class="container">
+                <h1>Achievements Übersicht</h1>
+                <div class="achievements">
+                    <!-- General Exploration Achievements -->
+                    <div class="achievement-section">
+                        <h2>General Exploration Achievements</h2>
+                        <div class="achievement-list">
+                            <input type="checkbox" id="first-steps" />
+                            <label for="first-steps">First Steps - Complete your first quest.</label>
+                            <input type="checkbox" id="explorer-extraordinaire" />
+                            <label for="explorer-extraordinaire">Explorer Extraordinaire - Complete 10 quests in different locations.</label>
+                            <input type="checkbox" id="world-wanderer" />
+                            <label for="world-wanderer">World Wanderer - Visit 5 distinct regions in the Berner Oberland.</label>
+                        </div>
+                    </div>
 
-            <section>
-                <h2>General Exploration Achievements</h2>
-                <ul>
-                    <li>
-                        <input type="checkbox" id="first-steps" />
-                        <label for="first-steps">
-                            <h3>First Steps</h3>
-                            <p>Complete your first quest.</p>
-                            <p class="reward">Reward: Bronze Explorer Badge.</p>
-                        </label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="explorer-extraordinaire" />
-                        <label for="explorer-extraordinaire">
-                            <h3>Explorer Extraordinaire</h3>
-                            <p>Complete 10 quests in different locations.</p>
-                            <p class="reward">Reward: Silver Compass Badge.</p>
-                        </label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="world-wanderer" />
-                        <label for="world-wanderer">
-                            <h3>World Wanderer</h3>
-                            <p>
-                                Visit 5 distinct regions in the Berner Oberland.
-                            </p>
-                            <p class="reward">Reward: Gold Globe Trophy.</p>
-                        </label>
-                    </li>
-                </ul>
-            </section>
-            <section>
-                <h2>Hiking & Trails Achievements</h2>
-                <ul>
-                    <li>
-                        <input type="checkbox" id="trailblazer" />
-                        <label for="trailblazer">
-                            <h3>Trailblazer</h3>
-                            <p>Complete a 5 km hike in under 2 hours.</p>
-                            <p class="reward">Reward: Trail Patch.</p>
-                        </label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="summit-seeker" />
-                        <label for="summit-seeker">
-                            <h3>Summit Seeker</h3>
-                            <p>Reach the top of 3 different mountain peaks.</p>
-                            <p class="reward">Reward: Summit Shield.</p>
-                        </label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="night-walker" />
-                        <label for="night-walker">
-                            <h3>Night Walker</h3>
-                            <p>Finish a hike during sunset or after dark.</p>
-                            <p class="reward">Reward: Moonlit Pin.</p>
-                        </label>
-                    </li>
-                </ul>
-            </section>
+                    <!-- Hiking & Trails Achievements -->
+                    <div class="achievement-section">
+                        <h2>Hiking & Trails Achievements</h2>
+                        <div class="achievement-list">
+                            <input type="checkbox" id="trailblazer" />
+                            <label for="trailblazer">Trailblazer - Complete a 5 km hike in under 2 hours.</label>
+                            <input type="checkbox" id="summit-seeker" />
+                            <label for="summit-seeker">Summit Seeker - Reach the top of 3 different mountain peaks.</label>
+                            <input type="checkbox" id="night-walker" />
+                            <label for="night-walker">Night Walker - Finish a hike during sunset or after dark.</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
 
         <footer>
