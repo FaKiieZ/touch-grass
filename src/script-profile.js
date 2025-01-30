@@ -23,8 +23,6 @@ function selectIcon(iconSrc) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    console.log("Profile loaded1")
-
     if (window.location.pathname.endsWith('/profile.html')) {
         console.log("Profile loaded")
         const savedPic = localStorage.getItem('profilePicture');
@@ -47,3 +45,35 @@ document.addEventListener("DOMContentLoaded", function() {
         `;
     }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    if (window.location.pathname.endsWith("/profile-detail.html")) {
+        loadProfileData();
+    }
+});
+
+function loadProfileData() {
+    const savedPic = localStorage.getItem("profilePicture");
+    const savedName = localStorage.getItem("profileName");
+    const savedAge = localStorage.getItem("profileAge");
+    const savedLocation = localStorage.getItem("profileLocation");
+    const savedOccupation = localStorage.getItem("profileOccupation");
+
+    console.log("occupation: ", savedOccupation);
+
+    if (savedPic) {
+        document.getElementById("profile-pic").src = savedPic;
+    }
+    if (savedName) {
+        document.getElementById("name").value = savedName;
+    }
+    if (savedAge) {
+        document.getElementById("age").value = savedAge;
+    }
+    if (savedLocation) {
+        document.getElementById("location").value = savedLocation;
+    }
+    if (savedOccupation) {
+        document.getElementById("occupation").value = savedOccupation;
+    }
+}
