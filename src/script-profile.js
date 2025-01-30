@@ -59,8 +59,6 @@ function loadProfileData() {
     const savedLocation = localStorage.getItem("profileLocation");
     const savedOccupation = localStorage.getItem("profileOccupation");
 
-    console.log("occupation: ", savedOccupation);
-
     if (savedPic) {
         document.getElementById("profile-pic").src = savedPic;
     }
