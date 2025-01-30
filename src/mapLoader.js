@@ -10,4 +10,4 @@ function addMap(url)
     }).addTo(map);
 }
 
-addMap('https://github.com/FaKiieZ/touch-grass/tree/main/src/maps/test-map.gpx')
+addMap('maps/test-map.gpx')
