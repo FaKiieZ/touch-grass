@@ -20,6 +20,8 @@
             integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
             crossorigin=""
         ></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/2.1.2/gpx.min.js" defer></script>
     </head>
 
     <body>
@@ -42,8 +44,11 @@
             <div id="map"></div>
 
             <script src="map.js"></script>
+            <!-- could only get it working with module tag. Should be tested through localhost as CORS errors are triggered otherwise -->
+            <script src="mapLoader.js" type="module"></script>
         </main>
-
+        
+        
         <footer>
             <p>
                 &copy;
