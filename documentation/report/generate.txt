@@ -1,0 +1,1 @@
+ .\pandoc.exe C:\Projects\touch-grass\documentation\report\report.md -o report.pdf --pdf-engine=pdflatex --template=C:\Projects\touch-grass\documentation\report\template.tex
