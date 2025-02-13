@@ -1,13 +1,28 @@
+var gpxLayer = new L.FeatureGroup();
+var mapsElement = document.getElementById("maps")
+
 function addMap(url)
 {    
+    gpxLayer = new L.FeatureGroup();
+
     const options = {
         async: true,
         polyline_options: { color: 'red' },
     };
     
-    const gpx = new L.GPX(url, options).on('loaded', (e) => {
-        map.fitBounds(e.target.getBounds());
-    }).addTo(map);
+    const gpx = new L.GPX(url, options)
+
+    gpxLayer.addLayer(gpx);
+    map.addLayer(gpxLayer);
 }
 
-addMap('maps/test-map.gpx')
+function changeMap()
+{
+    var selectedMap = mapsElement.value
+    console.log("map selected: " + selectedMap)
+    map.removeLayer(gpxLayer);
+    addMap('maps/' + selectedMap + '.gpx');
+}
+
+mapsElement.onchange = changeMap;
+changeMap()
