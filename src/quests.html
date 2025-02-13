@@ -35,15 +35,15 @@
                         <h2>Daily Quests</h2>
                         <ul class="quest-list">
                             <li>
-                                <input type="checkbox" id="daily-1" onclick="createCollectButton(100, 'collect-button-1')" />
+                                <input type="checkbox" id="daily-1" onclick="handleCheckboxClick(100, 'collect-button-1', 'daily-1')" />
                                 <label for="daily-1">Sammle 100 XP</label>
                             </li>
                             <li>
-                                <input type="checkbox" id="daily-2" onclick="createCollectButton(200, 'collect-button-2')" />
+                                <input type="checkbox" id="daily-2" onclick="handleCheckboxClick(200, 'collect-button-2', 'daily-2')" />
                                 <label for="daily-2">Besiege 5 Gegner</label>
                             </li>
                             <li>
-                                <input type="checkbox" id="daily-3" onclick="createCollectButton(200, 'collect-button-3')" />
+                                <input type="checkbox" id="daily-3" onclick="handleCheckboxClick(200, 'collect-button-3', 'daily-3')" />
                                 <label for="daily-3">Schliesse 5 Wanderungen ab</label>
                             </li>
                         </ul>
@@ -92,6 +92,11 @@
         </footer>
 
         <script>
+            function handleCheckboxClick(xp, buttonId, checkboxId) {
+                createCollectButton(xp, buttonId);
+                document.getElementById(checkboxId).disabled = true;
+            }
+
             function createCollectButton(xp, buttonId) {
                 const container = document.getElementById('collect-buttons-container');
                 if (!document.getElementById(buttonId)) {
