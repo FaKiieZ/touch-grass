@@ -7,6 +7,7 @@
 
         <link rel="stylesheet" type="text/css" href="style.css" />
         <link rel="stylesheet" type="text/css" href="quests-style.css" />
+        <script src="script-profile.js"></script>
     </head>
 
     <body>
@@ -34,15 +35,15 @@
                         <h2>Daily Quests</h2>
                         <ul class="quest-list">
                             <li>
-                                <input type="checkbox" id="daily-1" />
+                                <input type="checkbox" id="daily-1" onclick="createCollectButton(100, 'collect-button-1')" />
                                 <label for="daily-1">Sammle 100 XP</label>
                             </li>
                             <li>
-                                <input type="checkbox" id="daily-2" />
+                                <input type="checkbox" id="daily-2" onclick="createCollectButton(200, 'collect-button-2')" />
                                 <label for="daily-2">Besiege 5 Gegner</label>
                             </li>
                             <li>
-                                <input type="checkbox" id="daily-3" />
+                                <input type="checkbox" id="daily-3" onclick="createCollectButton(200, 'collect-button-3')" />
                                 <label for="daily-3">Schliesse 5 Wanderungen ab</label>
                             </li>
                         </ul>
@@ -54,9 +55,7 @@
                         <ul class="quest-list">
                             <li>
                                 <input type="checkbox" id="weekly-1" />
-                                <label for="weekly-1"
-                                    >Verdiene 5000 Punkte</label
-                                >
+                                <label for="weekly-1">Verdiene 5000 Punkte</label>
                             </li>
                             <li>
                                 <input type="checkbox" id="weekly-2" />
@@ -64,13 +63,21 @@
                             </li>
                             <li>
                                 <input type="checkbox" id="weekly-3" />
-                                <label for="weekly-3"
-                                    >Erkunde 3 neue Gebiete</label
-                                >
+                                <label for="weekly-3">Erkunde 3 neue Gebiete</label>
                             </li>
                         </ul>
                     </div>
                 </div>
+
+                <div class="progress-container">
+                    <h2 class="header2">Level Progress</h2>
+                    <div class="progress-bar">
+                        <div class="progress" id="progress"></div>
+                    </div>
+                    <p id="level"></p>
+                </div>
+
+                <div id="collect-buttons-container"></div>
             </div>
         </main>
 
@@ -83,5 +90,20 @@
                 Touch Grass
             </p>
         </footer>
+
+        <script>
+            function createCollectButton(xp, buttonId) {
+                const container = document.getElementById('collect-buttons-container');
+                if (!document.getElementById(buttonId)) {
+                    const button = document.createElement('button');
+                    button.id = buttonId;
+                    button.textContent = `Collect ${xp} XP`;
+                    button.onclick = function() {
+                        collectXP(xp, buttonId);
+                    };
+                    container.appendChild(button);
+                }
+            }
+        </script>
     </body>
 </html>
