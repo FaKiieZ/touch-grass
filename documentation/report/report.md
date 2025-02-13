@@ -12,7 +12,7 @@ Eingereicht bei: Fabian Hirter
 
 Abgabedatum: 6. März 2025
 
-<div style="page-break-after: always;"></div>
+\newpage
 
 # Abstract
 
@@ -33,17 +33,17 @@ geben.
  - Redundanzfreiheit: Wiederholungen sind zu vermeiden.
  - Fehlerfreiheit: Formfehler und inhaltliche Fehler sind zu vermeiden
 
-<div style="page-break-after: always;"></div>
+\newpage
 
 # Inhaltsverzeichnis
  - Nicht zu viele Hierarchieebenen bei der Titelnummerierung (maximal 3)
  - Nicht umfangreicher als eine Seite
 
- <div style="page-break-after: always;"></div>
+\newpage
 
 # Glossar
 
- <div style="page-break-after: always;"></div>
+\newpage
 
 # Einleitung
  Ziel der Einleitung ist es, die Problemstellung der Arbeit im Kontext zu verorten. Es werden die
@@ -55,7 +55,7 @@ geben.
 - Kurzer beruflicher Lebenslauf
 - Zeitplanung
 
- <div style="page-break-after: always;"></div>
+\newpage
 
 # Ausgangslage und Problemstellung
  In der Ausgangslage wird beschrieben, wie es zur Fragestellung der Arbeit gekommen ist. Sie diskutiert, in welchem Zusammenhang die Arbeiten, über die berichtet wird, zu den bisherigen Erkenntnissen und Arbeiten stehen. Deshalb enthält die Einleitung zumeist auch eine Literaturstudie mit den Referenzen auf die wichtigsten bisher veröffentlichten Arbeiten. Die Problemstellung sollte eine klare
@@ -68,7 +68,7 @@ geben.
  - Was wurde bisher nicht gemacht?
  - Was habe ich gemacht
 
- <div style="page-break-after: always;"></div>
+\newpage
 
 # Zielsetzung
  Dieses Kapitel beschreibt die Ziele, die mit der Arbeit erreicht werden sollen. Die Ziele sollten klar
@@ -77,7 +77,7 @@ geben.
  beantworten. Es kann auch Unterziele enthalten, die es ermöglichen, die Hauptziele zu erreichen. Es
  ist wichtig, dass die Ziele der Arbeit messbar, realistisch und erreichbar sind (SMART)
 
- <div style="page-break-after: always;"></div>
+\newpage
 
  # Hauptteil
  In diesem Abschnitt wird beschrieben, wie die formulierten Ziele erreicht wurden.
@@ -88,7 +88,7 @@ geben.
  Oft ist es hilfreich, den Hauptteil in mehrere Iterationen zu strukturieren, welche in sich eine Problem
 stellung, Variantenentscheid und Ergebnisse beinhalten
 
- <div style="page-break-after: always;"></div>
+\newpage
 
 # Variantenentscheide
  Oft umfasst eine Arbeit zahlreiche Variantenentscheide und jeweils eine Auswahl einer bevorzugten
@@ -96,7 +96,7 @@ stellung, Variantenentscheid und Ergebnisse beinhalten
  Interpretationen hinzufügt werden.
  Die in der Einleitung formulierten Ziele dienen hier als Massstab.
 
-  <div style="page-break-after: always;"></div>
+\newpage
 
  # Ergebnisse
  Hier werden die Resultate deraus geführten Arbeiten aufgeführt, welche für die Diskussion und Schluss
@@ -105,7 +105,7 @@ folgerungen nötig sind. Alles andere kommt in den Anhang.
  Darstellung und Beschreibung der Resultate, nicht aber um deren Interpretation!
  Die Resultate können in Tabellen oder Grafiken dargestellt sein
 
-  <div style="page-break-after: always;"></div>
+\newpage
 
 # Diskussion
  Aufgabe dieses Kapitels ist es, Antworten auf die einleitend gestellten Fragen zu diskutieren und
@@ -120,7 +120,7 @@ mulierten Fragen und Ziele sollen hier beantwortet werden.
  Die Schlussfolgerungen müssen aus dem Bericht selber hervorgehen, d.h. alle Punkte, die in der Dis
 kussion aufgeführt werden, müssen in den vorgängigen Kapiteln behandelt worden sein.
 
-  <div style="page-break-after: always;"></div>
+\newpage
 
  # Empfehlungen und Ausblick
  In diesem Kapitel werden konkrete Empfehlungen gegeben. Falls es in einem Bericht beispielsweise
@@ -129,7 +129,7 @@ gesprochen und das weitere Vorgehen dargelegt. Es werden die Grenzen der Arbeit 
  Unsicherheiten, kritische AnmerkungenzurMethodik,ungelösteFragenoderUnvollständigkeitender
  Ergebnisse angesprochen. Dieses Kapitel dient weiterführenden Arbeiten als Grundlage und Einstieg.
 
-   <div style="page-break-after: always;"></div>
+\newpage
 
 # Eigenständigkeitserklärung
  Zu einer wissenschaftlichen Arbeit gehört am Ende eine Eigenständigkeitserklärung. Beispiel Eigen
@@ -140,20 +140,20 @@ ständigkeitserklärung:
  wörtlich oder sinngemäss aus veröffentlichten oder noch nicht veröffentlichten Quellen entnommen
  sind, sind als solche kenntlich gemacht.“
 
-  <div style="page-break-after: always;"></div>
+\newpage
 
 # Vertraulichkeitserklärungen
  Vertrauliche Arbeiten müssen durch die Schulleitung bewilligt werden und sind auf der Titelseite mit
  dem Vermerk „vertraulich“ zu versehen. Die Schulleitung unterzeichnet keine Vertraulichkeitserklä
 rung jeglicher Art
 
-  <div style="page-break-after: always;"></div>
+\newpage
 
 # Quellen und Hilfsmittel
  Gedankengut- seien das Ideen, Meinungen oder ganze Textstellen- das aus anderen Quellen über
 nommen wird, muss deutlich gekennzeichnet werden.
 
-  <div style="page-break-after: always;"></div>
+\newpage
 
  # KI basierende Tools
  KI basierende Tools können nicht als Quellen angegeben werden, da die inhaltliche Richtigkeit nicht
@@ -175,7 +175,7 @@ oder Grammatikkorrektoren, Online-Wörterbücher, Bibliothekskataloge usw., müs
  Beispiele und weitere Informationen sind dem Dokument (Leitfaden «Aus KI zitieren», 2023) zu
  entnehmen
 
-  <div style="page-break-after: always;"></div>
+\newpage
 
  # Quellenangabe
  Die Quellen (Bücher, Zeitschriften oder Zeitungsartikel, Websites, etc.), auf die abgestützt wird, wer
@@ -195,7 +195,7 @@ ben. Onlinequellen müssen mit vollständiger URL und Abrufdatum aufgeführt wer
  Pearson Education
  - https://www.distributed-systems.net/index.php/teaching-distributed-systems/, abgerufenam05.01.2023
 
-  <div style="page-break-after: always;"></div>
+\newpage
 
  # Anhang
  - Soll Ergänzungen zur Reproduzierbarkeit enthalten. Der Bericht muss ohne Anhang verständ
