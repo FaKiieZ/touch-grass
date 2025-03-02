@@ -1,15 +1,15 @@
 var map = L.map("map");
 
 // Disable zooming
-map.zoomControl.remove();
-map.touchZoom.disable();
-map.doubleClickZoom.disable();
-map.scrollWheelZoom.disable();
-map.boxZoom.disable();
-map.keyboard.disable();
+// map.zoomControl.remove();
+// map.touchZoom.disable();
+// map.doubleClickZoom.disable();
+// map.scrollWheelZoom.disable();
+// map.boxZoom.disable();
+// map.keyboard.disable();
 
 // Disable dragging
-map.dragging.disable();
+// map.dragging.disable();
 
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
