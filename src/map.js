@@ -43,10 +43,6 @@ if ("geolocation" in navigator) {
                 [lat - 0.07, lon - 0.07],
                 [lat + 0.07, lon + 0.07],
             ];
-            var visitedArea = L.rectangle(visibleBounds, {
-                color: "#ff7800",
-                weight: 1,
-            }).addTo(visitedAreas);
 
             // Remove the mask from the visible area
             updateMask(visibleBounds);
