@@ -21,7 +21,10 @@
             crossorigin=""
         ></script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/2.1.2/gpx.min.js" defer></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/2.1.2/gpx.min.js"
+            defer
+        ></script>
     </head>
 
     <body>
@@ -41,12 +44,12 @@
         </nav>
 
         <main>
-            <label class="label" for="maps">Choose a map:</label>
+            <label class="label" for="maps">Choose a route:</label>
 
             <select name="maps" id="maps" class="profile-details-form">
-              <option value="test-map">Easy route</option>
-              <option value="test-map2">Difficult route</option>
-            </select> 
+                <option value="test-map">Easy route</option>
+                <option value="test-map2">Difficult route</option>
+            </select>
 
             <div id="map"></div>
 
@@ -54,8 +57,7 @@
             <!-- could only get it working with module tag. Should be tested through localhost as CORS errors are triggered otherwise -->
             <script src="mapLoader.js" type="module"></script>
         </main>
-        
-        
+
         <footer>
             <p>
                 &copy;
