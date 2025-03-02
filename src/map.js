@@ -40,8 +40,8 @@ if ("geolocation" in navigator) {
 
             // Define the visible area as a rectangle around the current position
             var visibleBounds = [
-                [lat - 0.05, lon - 0.05],
-                [lat + 0.05, lon + 0.05],
+                [lat - 0.07, lon - 0.07],
+                [lat + 0.07, lon + 0.07],
             ];
             var visitedArea = L.rectangle(visibleBounds, {
                 color: "#ff7800",
